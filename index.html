@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울식물원</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/aos.js"></script>
+    <!-- <script src="./js/swiper.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/common.js"></script>
+</head>
+
+<body>
+    <ul class="bar_wrap">
+        <li class="bar">
+            <a href="#">
+                <p>안내도</p>
+                <p><img src="./img/icon_direction.svg" alt="안내도아이콘"></p>
+            </a>
+        </li>
+        <li class="bar">
+            <a href="#">
+                <p>주차안내</p>
+                <p><img src="./img/icon_parking.svg" alt="주차안내아이콘"></p>
+            </a>
+        </li>
+        <li class="bar">
+            <a href="#">
+                <p>문의하기</p>
+                <p><img src="./img/icon_onlineedu.svg" alt="문의하기아이콘"></p>
+            </a>
+        </li>
+        <li class="bar">
+            <a href="#">
+                <p>교육신청</p>
+                <p><img src="./img/icon_edu.svg" alt="교육신청아이콘"></p>
+            </a>
+        </li>
+    </ul>
+    <i class="fas fa-bars ham"></i>
+    <i class="fas fa-times close_btn"></i>
+    <h1 class="m_logo"><span hidden>서울식물원</span> <a href="#"><img src="./img/logo.svg" alt="로고"></a></h1>
+    <header>
+        <div class="seoul_nav">
+            <div class="_inner">
+                <div class="seoul_logo">
+                    <a href="#"><img src="./img/seoul_logo.svg" alt="서울시로고"></a>
+                </div>
+                <a href="#" class="seoul_news">
+                    <i class="fas fa-volume-up"></i>
+                    <p>2021 서울로미디어캔버스 4회전시</p>
+                </a>
+                <div class="seoul_menu">
+                    <a href="#">서울소식</a>
+                    <a href="#">응답소</a>
+                    <a href="#">정보공개</a>
+                    <a href="#">분야별정보</a>
+                </div>
+            </div>
+        </div>
+        <div class="main_gnb">
+            <nav class="_inner">
+                <h1><span hidden>서울식물원</span> <a href="#" class="logo"><img src="./img/logo.svg" alt="로고"></a></h1>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">식물원이야기</a>
+                        <div class="dep2_wrap">
+                            <div class="dep2_title">
+                                <img src="./img/logo_img.svg" alt="">
+                                <p>식물원 이야기</p>
+                            </div>
+                            <ul class="dep2">
+                                <li>
+                                    <a href="#">식물원소개</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">인사말</a></li>
+                                        <li><a href="#">조경성과</a></li>
+                                        <li><a href="#">미션과 비전</a></li>
+                                        <li><a href="#">운영방향</a></li>
+                                        <li><a href="#">BI</a></li>
+                                        <li><a href="#">조직도</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">이용안내</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">요금안내</a></li>
+                                        <li><a href="#">관람유의사항</a></li>
+                                        <li><a href="#">제로페이</a></li>
+                                        <li><a href="#">유실물</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">방문안내</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">오시는 길</a></li>
+                                        <li><a href="#">자주하는 질문</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">새소식</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">새소식</a></li>
+                                        <li><a href="#">홍보자료</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">이용하기</a>
+                        <div class="dep2_wrap">
+                            <div class="dep2_title">
+                                <img src="./img/logo_img.svg" alt="">
+                                <p>이용하기</p>
+                            </div>
+                            <ul class="dep2">
+                                <li>
+                                    <a href="#">식물문화센터</a>
+                                </li>
+                                <li>
+                                    <a href="#">식물판매센터</a>
+                                </li>
+                                <li>
+                                    <a href="#">식물전문도서관</a>
+                                </li>
+                                <li>
+                                    <a href="#">편의시설</a>
+                                </li>
+                                <li>
+                                    <a href="#">씨앗도서관</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">이용안내</a></li>
+                                        <li><a href="#">이달의씨앗</a></li>
+                                        <li><a href="#">씨앗정보</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">정원지원실</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">소개</a></li>
+                                        <li><a href="#">정원상담소</a></li>
+                                        <li><a href="#">식물전시</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">둘러보기</a>
+                        <div class="dep2_wrap">
+                            <div class="dep2_title">
+                                <img src="./img/logo_img.svg" alt="">
+                                <p>둘러보기</p>
+                            </div>
+                            <ul class="dep2">
+                                <li>
+                                    <a href="#">열린숲</a>
+                                </li>
+                                <li>
+                                    <a href="#">주제원</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">주제정원</a></li>
+                                        <li><a href="#">온실</a></li>
+                                        <li><a href="#">마곡문화관</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">호수원</a>
+                                </li>
+                                <li>
+                                    <a href="#">습지원</a>
+                                </li>
+                                <li>
+                                    <a href="#">전시안내</a>
+                                </li>
+                                <li>
+                                    <a href="#">식물원의 사계</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">참여하기</a>
+                        <div class="dep2_wrap">
+                            <div class="dep2_title">
+                                <img src="./img/logo_img.svg" alt="">
+                                <p>참여하기</p>
+                            </div>
+                            <ul class="dep2">
+                                <li>
+                                    <a href="#">교육프로그램</a>
+                                    <ul class="dep3">
+                                        <li><a href="#">교육 신청</a></li>
+                                        <li><a href="#">온라인교육</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">참여하기</a>
+                                </li>
+                                <li>
+                                    <a href="#">서울식물원국제심포지엄</a>
+                                </li>
+                                <li>
+                                    <a href="#">서울식물원식재설계공모전</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">식물정보</a>
+                        <div class="dep2_wrap">
+                            <div class="dep2_title">
+                                <img src="./img/logo_img.svg" alt="">
+                                <p>식물정보</p>
+                            </div>
+                            <ul class="dep2">
+                                <li>
+                                    <a href="#">식물 소개</a>
+                                </li>
+                                <li>
+                                    <a href="#">식물연구소 소개</a>
+                                </li>
+                                <li>
+                                    <a href="#">이달의 식물</a>
+                                </li>
+                                <li>
+                                    <a href="#">식물가꾸기</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+
+
+                <div class="icon_set">
+                    <div class="lang">
+                        <a href="#">Eng</a>
+                    </div>
+                    <a href="#"><i class="fas fa-search search"></i></a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="main_v">
+        <div class="_inner">
+            <h2 class="title_txt">
+                <p class="title1">식물, 문화가 되다.</p>
+                <p class="text_g">
+                    <span class="title2">도심 속에서 만나는</span>
+                    <span class="title3">자연</span>
+                </p>
+            </h2>
+            <div class="map_circle"></div>
+        </div>
+    </section>
+    <section class="guide_wrap" data-aos="fade-down">
+        <div class="_inner">
+            <div class="info">
+                <h3>관람시간 안내</h3>
+                <div>
+                    <p>주제원(주제정원, 온실)</p>
+                    <span><b>09:30~17:00</b></span>
+                </div>
+                <div>
+                    <p>매표마감</p>
+                    <span><b>16:00</b></span>
+                </div>
+                <div>
+                    <p>열린숲,호수원,습지원</p>
+                    <span><b>연중무휴</b></span>
+                </div>
+                <p class="strong">*월요일 휴관</p>
+                <p>*22.1.1부터 제로페이 할인 중지</p>
+            </div>
+            <div class="price">
+                <h3>이용요금</h3>
+                <div>
+                    <p>개인 대인</p>
+                    <p>5000원</p>
+                </div>
+                <div>
+                    <p>청소년</p>
+                    <p>3000원</p>
+                </div>
+                <div>
+                    <p>소인</p>
+                    <p>2000원</p>
+                </div>
+                <div>
+                    <p>단체(30인이상)</p>
+                    <p>30% 할인</p>
+                    </d>
+                </div>
+            </div>
+            <div class="address">
+                <h3>오시는 길</h3>
+                <div class="map_info">
+                    <div>
+                        <p>
+                            <span>도로명 주소</span>
+                            <span>서울 강서구 마곡동로 161</span>
+                        </p>
+                        <p>
+                            <span>지번</span>
+                            <span>서울 강서구 마곡동 812</span>
+                        </p>
+                    </div>
+                    <a href="#" class="map"><img src="./img/map.png" alt="지도"></a>
+                </div>
+
+            </div>
+    </section>
+    <section class="notice_wrap" data-aos="fade-up">
+        <div class="_inner">
+            <h3><span class="h_title">공지사항</span></h3>
+            <div class="notice_list">
+                <a href="#" class="notice">
+                    <strong class="job">채용</strong>
+                    <span class="title">2022년 1월 서울식물원 기간제 노동자 채용 1차 서류전형 모집합니다.</span>
+                    <span>2021.12.27</span>
+                </a>
+                <a href="#" class="notice">
+                    <strong class="tender">입찰</strong>
+                    <span class="title">2022년 1월 서울식물원 기간제 노동자 채용 1차 서류전형</span>
+                    <span class="date">2021.12.27</span>
+                </a>
+                <a href="#" class="notice">
+                    <strong class="edu">교육</strong>
+                    <span class="title">2022년 1월 서울식물원 기간제 노동자 채용 1차 서류전형</span>
+                    <span class="date">2021.12.27</span>
+                </a>
+                <a href="#" class="notice">
+                    <strong class="noti">공지</strong>
+                    <span class="title">2022년 1월 서울식물원 기간제 노동자 채용 1차 서류전형</span>
+                    <span class="date">2021.12.27</span>
+                </a>
+                <a href="#" class="notice">
+                    <strong class="noti">공지</strong>
+                    <span class="title">2022년 1월 서울식물원 기간제 노동자 채용 1차 서류전형</span>
+                    <span class="date">2021.12.27</span>
+                </a>
+                <a href="#" class="notice">
+                    <strong class="job">채용</strong>
+                    <span class="title">2022년 1월 서울식물원 기간제 노동자 채용 1차 서류전형</span>
+                    <span class="date">2021.12.27</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="news_wrap" data-aos="fade-up">
+        <div class="_inner">
+            <h3><span class="h_title">식물원 소식</span></h3>
+            <div class="banner_con swiper mySwiper">
+                <ul class="banner_wrap swiper-wrapper">
+                    <li class="banner swiper-slide">
+                        <figure>
+                            <p class="b_img"><img src="./img/happynewyear.jpg" alt="새해이미지"></p>
+                            <div class="b_text">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                            </div>
+                            <a href="#">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                                <p>자세히보기</p>
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="banner swiper-slide">
+                        <figure>
+                            <p class="b_img"><img src="./img/happynewyear.jpg" alt="새해이미지"></p>
+                            <div class="b_text">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                            </div>
+                            <a href="#">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                                <p>자세히보기</p>
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="banner swiper-slide">
+                        <figure>
+                            <p class="b_img"><img src="./img/happynewyear.jpg" alt="새해이미지"></p>
+                            <div class="b_text">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                            </div>
+                            <a href="#">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                                <p>자세히보기</p>
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="banner swiper-slide">
+                        <figure>
+                            <p class="b_img"><img src="./img/happynewyear.jpg" alt="새해이미지"></p>
+                            <div class="b_text">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                            </div>
+                            <a href="#">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                                <p>자세히보기</p>
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="banner swiper-slide">
+                        <figure>
+                            <p class="b_img"><img src="./img/happynewyear.jpg" alt="새해이미지"></p>
+                            <div class="b_text">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                            </div>
+                            <a href="#">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                                <p>자세히보기</p>
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="banner swiper-slide">
+                        <figure>
+                            <p class="b_img"><img src="./img/happynewyear.jpg" alt="새해이미지"></p>
+                            <div class="b_text">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                            </div>
+                            <a href="#">
+                                <p>
+                                    <span>[Happy New Year]</span>
+                                    <span>서울식물원에서</span>
+                                    <span>빛나는 2022년을 맞이해 보세요!</span>
+                                </p>
+                                <p>자세히보기</p>
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <div class="swiper-button-next btn1_next"></div>
+            <div class="swiper-button-prev btn1_prev"></div>
+        </div>
+    </section>
+    <section class="youtube_wrap" data-aos="fade-up">
+        <div class="_inner">
+            <h3><span class="h_title">유튜브</span></h3>
+            <div class="frame">
+
+                <video src="./img/youtube_video.mp4" muted controls poster="./img/video_poster.png"></video>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="_inner" data-aos="fade-up">
+            <div class="foot_logo"><img src="./img/gray_logo.svg" alt=""></div>
+            <!-- <div class="call_icon"><img src="./" alt=""></div> -->
+            <div class="foot_wrap">
+                <ul class="foot_menu">
+                    <li><a href="#"><span>개인정보처리방침</span></a></li>
+                    <li><a href="#"><span>저작권정책</span></a></li>
+                    <li><a href="#"><span>행정서비스 헌장</span></a></li>
+                    <li><a href="#"><span>홈페이지 바로잡기</span></a></li>
+                    <li><a href="#"><span>영상정보처리기기 운영 관리방침</span></a></li>
+                </ul>
+                <address>(우) 07789 서울 강서구 마곡동로 161 서울식물원</address>
+                <p class="copyright"><span>Copyright&copy;Seoul Metropolitan Government all rights reserved.</span></p>
+            </div>
+            <div class="icon_set">
+                <div class="sns_set">
+                    <a href="#"><img src="./img/icon_facebook.svg" alt=""></a>
+                    <a href="#"><img src="./img/icon_insta.svg" alt=""></a>
+                    <a href="#"><img src="./img/icon_youtube.svg" alt=""></a>
+                </div>
+                <div class="wa">
+                    <a href="#">
+                        <img src="./img/wa_mark.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
